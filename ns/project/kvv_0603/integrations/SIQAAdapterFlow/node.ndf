@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Karthik.V10@ibm.com</value>
-    <value name="lastModifiedDate">1772768410518</value>
+    <value name="lastModifiedDate">1772768589278</value>
     <value name="displayName">SIQAAdapterFlow</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -62,7 +62,7 @@
         <value name="name">Database</value>
         <value name="providerName">WmJDBCAdapter</value>
         <record name="operation" javaclass="com.wm.util.Values">
-          <value name="operationName">test</value>
+          <value name="operationName">test2</value>
           <value name="isCustom">true</value>
           <value name="operationType">actions</value>
           <value name="connectionType">sagcloud</value>
@@ -96,11 +96,11 @@
         <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
         </array>
         <record name="connection" javaclass="com.wm.util.Values">
-          <value name="connectionName">MSSQL</value>
+          <value name="connectionName">MYSQL</value>
           <value name="connectionType">sagcloud</value>
           <null name="description"/>
         </record>
-        <value name="connectionNSName">project.kvv_0603.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:MSSQL</value>
+        <value name="connectionNSName">project.kvv_0603.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:MYSQL</value>
         <value name="connectionType">sagcloud</value>
         <Boolean name="accountReferenceResolved">true</Boolean>
         <number name="ui_step_index" type="Long">1</number>
